@@ -1,0 +1,25 @@
+elastic:
+  server: "https://elastic-server:9200"
+
+  authentication:
+    method: "apikey"   # apikey or basic
+
+    apikey:
+      key: "CHANGE_ME"
+
+    basic:
+      username: "CHANGE_ME"
+      password: "CHANGE_ME"
+
+  verify_ssl: false
+  timeout_seconds: 60
+
+indices:
+  index-name-1: true
+  index-name-2: false
+  index-name-3: false
+  index-name-4: false
+
+export:
+  size_offset: 10
+  temp_history: 5
