@@ -1,6 +1,6 @@
 # elastic-index-to-csv
 
-Copyright (c) 2026 Franck Brou Koffi Michael  
+Copyright (c) 2026 Mikofb  
 SPDX-License-Identifier: MIT
 
 A lightweight Python utility to export Elasticsearch index documents to CSV files.
@@ -256,4 +256,4 @@ This project is licensed under the MIT License. See the `LICENSE` file.
 
 ## Copyright
 
-Copyright (c) 2026 Franck Brou Koffi Michael.
+Copyright (c) 2026 Mikofb.
